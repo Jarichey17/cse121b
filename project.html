@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/project.css">
+    <title>Currency Exchange</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Exchange</h1>
+        <div class="exchange-form">
+            <input type="number" id="amount" placeholder="Enter amount">
+            <select id="fromCurrency">
+                <!-- Dropdown options will be populated dynamically by JavaScript -->
+            </select>
+            <span>to</span>
+            <select id="toCurrency">
+                <!-- Dropdown options will be populated dynamically by JavaScript -->
+            </select>
+            <button id="convert">Convert</button>
+        </div>
+        <div class="result" id="result">
+            <!-- Conversion result will be displayed here -->
+        </div>
+    </div>
+    <script type="module" src="scripts/project.js"></script>
+</body>
+</html>
